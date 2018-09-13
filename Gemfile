@@ -10,8 +10,8 @@ source "http://rubygems.org"
 # if autogen is not installed
 # Debian user must do `sudo apt install libtool-bin`,
 # if libtool is not present
-gem 'rbczmq'
-gem 'ffi-rzmq'
+# gem 'rbczmq'
+# gem 'ffi-rzmq'
 
 # To run `iruby notebook` we need Python, ipython notebook,
 # and jupyter.
@@ -31,4 +31,4 @@ gem "daru-view", git: 'https://github.com/SciRuby/daru-view.git'
 
 # used in tutorials :
 # Nyaplot | Creating Visualizations with DataFrame  | from daru examples
-gem 'distribution'
+# gem 'distribution'
