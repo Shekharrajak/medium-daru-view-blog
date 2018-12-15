@@ -28,8 +28,11 @@ gem 'google_visualr', git: 'https://github.com/winston/google_visualr.git'
 
 gem 'daru-data_tables', git: 'https://github.com/Shekharrajak/daru-data_tables.git'
 
-# daru-view
+# daru-view for visualizing
 gem "daru-view", git: 'https://github.com/SciRuby/daru-view.git'
+
+# daru-io fomr importing data through avrious formate to daru dataframe
+gem "daru-io", git: 'https://github.com/SciRuby/daru-io.git'
 
 # used in tutorials :
 # Nyaplot | Creating Visualizations with DataFrame  | from daru examples
