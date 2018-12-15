@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+ruby "2.5.3"
+
 # iruby dependencies
 
 # For rbczmq gem we need to install autogen otherwise you may
