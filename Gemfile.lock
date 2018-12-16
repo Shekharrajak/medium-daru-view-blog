@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/SciRuby/daru-io.git
+  revision: dce4be1089a6c9902d91a857e0cd43cf1f9832bc
+  specs:
+    daru-io (0.1.0)
+
+GIT
   remote: https://github.com/SciRuby/daru-view.git
   revision: 7c99ae5c7bbb4aea14c6467e7f29565517fc1444
   specs:
@@ -67,6 +73,9 @@ GEM
       data_uri (~> 0.1)
       mimemagic (~> 0.3)
       multi_json (~> 1.11)
+    jsonpath (0.9.8)
+      multi_json
+      to_regexp (~> 0.2.1)
     lazy_high_charts (1.5.8)
       hash-deep-merge
     loofah (2.2.3)
@@ -87,6 +96,7 @@ GEM
       loofah (~> 2.2, >= 2.2.2)
     thor (0.20.3)
     thread_safe (0.3.6)
+    to_regexp (0.2.1)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
 
@@ -96,10 +106,15 @@ PLATFORMS
 DEPENDENCIES
   daru!
   daru-data_tables!
+  daru-io!
   daru-view!
   google_visualr!
   iruby
+  jsonpath
   nyaplot!
 
+RUBY VERSION
+   ruby 2.5.3p105
+
 BUNDLED WITH
-   1.15.3
+   1.17.2

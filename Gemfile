@@ -33,7 +33,23 @@ gem "daru-view", git: 'https://github.com/SciRuby/daru-view.git'
 
 # daru-io fomr importing data through avrious formate to daru dataframe
 gem "daru-io", git: 'https://github.com/SciRuby/daru-io.git'
+gem 'jsonpath' # required to use JSON importer
 
 # used in tutorials :
 # Nyaplot | Creating Visualizations with DataFrame  | from daru examples
 # gem 'distribution'
+
+# check that you have the following in your ~/.bash_profile if using bash or ~/.zshenv if using zsh
+
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
+
+# rbenv issue is fixed using :
+# change to your ruby version
+# $ rbenv global 2.4.0 or any other like 2.5.3
+# register ruby to the jupyter
+# $ iruby register --force
+# $ jupyter kernelspec install ~/.ipython/kernels/ruby
+# start jupyter
+# $ jupyter notebook
+
