@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-ruby "2.5.3"
+# ruby "2.5.3"
 
 # iruby dependencies
 
@@ -15,10 +15,17 @@ ruby "2.5.3"
 # gem 'rbczmq'
 # gem 'ffi-rzmq'
 
+
+# IRuby dependencies
+# sudo apt install libtool libffi-dev ruby ruby-dev make
+# sudo apt install libzmq3-dev libczmq-dev
+
+
 # To run `iruby notebook` we need Python, ipython notebook,
 # and jupyter.
 # Please install according to the OS.
 # Follow this : https://github.com/SciRuby/iruby
+gem 'cztop'
 gem 'iruby'
 
 # fetch from the github master branch
